@@ -1,0 +1,18 @@
+body {
+    background-color: #272829;
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0;
+    text-align: center;
+}
+
+/* make the color of links white */
+a {
+    color: #ffffff;
+}
+
+#header a {
+    text-decoration: none;
+}
