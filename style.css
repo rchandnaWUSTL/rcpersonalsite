@@ -1,18 +1,37 @@
 body {
-    background-color: #272829;
-    color: #ffffff;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    margin: 0;
+    background-color: black;
+    color: #39ff14;
+    padding: 5% 10% 10% 10%;
+    max-width: 800px;
+    min-width: 200px;
+    overflow: scroll;
+  }
+
+  a {
+    display: inline-block;
     text-align: center;
+    text-decoration: none;
+    color: #39ff14;
+  }
+
+  .cursor {
+    color: white;
+    font-weight: bold;
+    animation: blink 1s linear infinite;
+    border-right: 7px solid white;
+    font-size: 16px;
+  }
+  
+  @keyframes blink {
+    0% {
+      visibility: hidden;
+    }
 }
 
-/* make the color of links white */
-a {
-    color: #ffffff;
+.about a {
+    text-decoration: underline;
 }
 
-#header a {
+.about a:hover {
     text-decoration: none;
 }
