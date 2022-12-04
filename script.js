@@ -45,7 +45,7 @@ const animateText = (element) => {
         clearInterval(interval);
         element.removeAttribute("style");
       }
-    }, 75);
+    }, 35);
   };
   
   // Select all elements with the class "animate-text"
