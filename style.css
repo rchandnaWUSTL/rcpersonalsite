@@ -6,6 +6,7 @@ body {
     min-width: 200px;
     overflow: scroll;
     position: absolute;
+    font-family: Helvetica, monospace;
 }
 
 a {
@@ -14,10 +15,10 @@ a {
 }
 
 .cursor {
-    color: white;
+    color: #39ff14;
     font-weight: bold;
     animation: blink 1s linear infinite;
-    border-right: 7px solid white;
+    border-right: 7px solid #39ff14;
     font-size: 16px;
 }
 
