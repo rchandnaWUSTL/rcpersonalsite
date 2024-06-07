@@ -1,37 +1,67 @@
 body {
     background-color: black;
     color: #39ff14;
-    padding: 5% 10% 10% 10%;
-    max-width: 800px;
-    min-width: 200px;
-    overflow: scroll;
-    position: absolute;
-    font-family: Helvetica, monospace;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #39ff14;
+    box-shadow: 0 0 10px #39ff14;
+    margin: 20px 0;
+}
+
+.quick-info {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.current-occupation p, .employment-history ul, .education p, .technical-skills p, .languages p, .hobbies-interests p, .current-projects p, .volunteering p, .contact-information p, .digital-footprint p {
+    font-size: 1.2em;
+}
+
+.employment-history ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.employment-history ul li {
+    margin: 5px 0;
 }
 
 a {
+    color: #39ff14;
     text-decoration: none;
-    color: #39ff14;
 }
 
-.cursor {
-    color: #39ff14;
-    font-weight: bold;
-    animation: blink 1s linear infinite;
-    border-right: 7px solid #39ff14;
-    font-size: 16px;
-}
-
-@keyframes blink {
-    0% {
-        visibility: hidden;
-    }
-}
-
-.about a {
+a:hover {
     text-decoration: underline;
-}
-
-.about a:hover {
-    text-decoration: none;
 }
