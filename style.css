@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
 h1 {
@@ -44,7 +44,7 @@ h3 {
     margin: 15px 0;
 }
 
-.current-occupation p, .employment-history ul, .education p, .technical-skills p, .languages p, .hobbies-interests p, .current-projects p, .volunteering p, .contact-information p, .digital-footprint p {
+.current-occupation p, .employment-history ul, .education p, .technical-skills p, .languages p, .hobbies-interests p, .volunteering p, .contact-information p, .social-media p {
     font-size: 1.2em;
 }
 
@@ -64,4 +64,31 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    
+    .profile-photo {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .quick-info {
+        font-size: 1em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    h3 {
+        font-size: 1.2em;
+    }
+    
+    .current-occupation p, .employment-history ul, .education p, .technical-skills p, .languages p, .hobbies-interests p, .volunteering p, .contact-information p, .social-media p {
+        font-size: 1em;
+    }
 }
